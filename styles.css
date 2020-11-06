@@ -1,0 +1,26 @@
+:root{
+    --background:#f7fafc;
+    --container:#d7e6f5;
+    --text-primary:#1a202c;
+}
+
+.dark{
+    --background:#4a5568;
+    --container:#2d3748;
+    --text-primary:#f7fafc;
+}
+
+body{
+    background-color:var(--background);
+    font-family:verdana;
+    color:var(--text-primary);
+    text-align: center;
+}
+
+.container{
+    background-color:var(--container);
+    margin: 20px;
+    padding:10px;
+    border-radius: 20px;
+}
+
