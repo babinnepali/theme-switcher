@@ -1,5 +1,3 @@
-console.log("Hello, this my first dark theme integration.");
-
 //storing the latest [theme value] in the Local Storage
 if(localStorage.getItem('theme')==="dark"){
     document.body.classList.toggle(localStorage.getItem('theme'));
